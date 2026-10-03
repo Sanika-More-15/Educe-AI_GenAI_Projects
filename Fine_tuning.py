@@ -87,3 +87,17 @@ trainer.save_model("./fine_tuned_model")
 tokenizer.save_pretrained("./fine_tuned_model")
 
 print("\nFine-tuned model saved successfully!")
+
+# Dataset:
+# We use a small SMS dataset with two types of messages:
+# 0 = Normal message
+# 1 = Spam message
+# The dataset has more than 20 messages.
+#
+# Preprocessing:
+# 1. Read the dataset using Pandas.
+# 2. Separate messages and labels.
+# 3. Split the data into training and testing data.
+# 4. Convert text into tokens using the DistilBERT tokenizer.
+# 5. Make all texts the same length by padding or cutting them.
+# 6. Use the processed data to train the model.
