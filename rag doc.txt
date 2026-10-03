@@ -1,0 +1,7 @@
+"Generative AI refers to models that can create new content such as text, images, or audio.
+
+Large Language Models (LLMs) like GPT and LLaMA are trained on massivetext corpora. 
+
+Retrieval Augmented Generation (RAG) combines retrieval of relevant documents with generative models to produce accurate answers. 
+
+Python is widely used in the AI ecosystem due to libraries like PyTorch, TensorFlow, and Hugging Face Transformers."
